@@ -26,7 +26,7 @@ import Mega from "./components/mega/Mega";
 
 export default () => (
   <SafeAreaView style={style.App}>
-    <Mega />
+    <Mega qtdNumeros={7} />
     {/*
     <FlexboxV4 />
     <FlexboxV3 />
